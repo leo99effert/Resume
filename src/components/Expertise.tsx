@@ -37,7 +37,7 @@ const Expertise = () => {
         </Flex>
       </Show>
       <Hide above="lg">
-        <Flex justifyContent="space-evenly">
+        <Flex justifyContent="center" gap={1}>
           <Image
             src={c}
             borderRadius="50%"

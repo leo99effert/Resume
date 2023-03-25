@@ -6,14 +6,14 @@ import JustValueCard from "./JustValueCard";
 const Experience = () => {
   return (
     <>
-      <Show above="lg">
+      <Show above="md">
         <Flex justifyContent="space-evenly" gap={2}>
           <JustValueCard />
           <EsCard />
           <IthsCard />
         </Flex>
       </Show>
-      <Hide above="lg">
+      <Hide above="md">
         <Flex
           justifyContent="space-evenly"
           alignItems="center"
