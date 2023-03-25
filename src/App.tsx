@@ -5,15 +5,17 @@ import Profile from "./components/Profile";
 import Technologies from "./components/Technologies";
 import Summary from "./components/Summary";
 import { Divider, Flex } from "@chakra-ui/react";
+import Download from "./components/Download";
 
 function App() {
   return (
-    <Flex flexDirection="column" gap={1}>
+    <Flex flexDirection="column" gap={3}>
       <Profile/>
       <Expertise/>
       <Summary/>
       <Experience/>
-      <Divider marginTop={5}/>
+      <Download/>
+      <Divider/>
       <Technologies/>
     </Flex>
   );
