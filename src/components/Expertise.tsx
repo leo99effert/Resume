@@ -43,26 +43,18 @@ const Expertise = () => {
             borderRadius="50%"
             boxSize="120px"
             objectFit="cover"
-            // position="relative"
-            // top="-50px"
-            // left="25px"
           />
           <Image
             src={net}
             borderRadius="50%"
             boxSize="120px"
             objectFit="cover"
-            // position="relative"
-            // top="-5px"
           />
           <Image
             src={react}
             borderRadius="50%"
             boxSize="120px"
             objectFit="cover"
-            // position="relative"
-            // top="-50px"
-            // left="-25px"
           />
         </Flex>
       </Hide>
